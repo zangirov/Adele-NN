@@ -1,0 +1,32 @@
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.titles {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3em;
+  color: #10002B;
+  font-weight: 500;
+  padding: 0.5rem 10rem;
+  letter-spacing: 0.02rem;
+}
+
+.info {
+  font-family: "Oswald", sans-serif;
+  font-size: 0.9em;
+  color: #10002B;
+  font-weight: 300;
+}
+
+.map {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+}
+
+.map_block {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+}/*# sourceMappingURL=Contacts.module.css.map */

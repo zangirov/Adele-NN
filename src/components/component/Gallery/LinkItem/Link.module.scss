@@ -1,0 +1,14 @@
+.button {
+  font-family: 'Oswald', sans-serif;
+  color: #240046;
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #fbfbfb;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  color: #7B2CBF;
+  transition: all 0.3s;
+}

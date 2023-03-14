@@ -1,0 +1,20 @@
+.card_block {
+  border: 2px solid #240046;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #10002B;
+  text-align: left;
+}
+
+.icon {
+  display: block;
+}/*# sourceMappingURL=MainPageCard.module.css.map */

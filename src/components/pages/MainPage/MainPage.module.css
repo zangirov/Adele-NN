@@ -1,0 +1,23 @@
+.container {
+  width: 1240px;
+  margin: auto;
+}
+
+.text {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #10002B;
+  text-align: left;
+  line-height: 1.3em;
+  width: 50%;
+  margin: auto;
+}
+
+.cards_block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: auto;
+  padding: 2rem 0 2rem 0;
+}/*# sourceMappingURL=MainPage.module.css.map */

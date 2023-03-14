@@ -1,0 +1,41 @@
+input {
+  padding: 5px;
+  border-color: rgba(16, 0, 43, 0.3);
+  color: rgba(16, 0, 43, 0.5);
+  border-top-style: none;
+  border-left-color: rgba(16, 0, 43, 0.1);
+  border-right-style: none;
+  border-left-style: double;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.7em;
+  background-color: #fbfbfb;
+  color: #10002B;
+}
+
+input:hover {
+  scale: 1.01;
+  transition: ease all 0.2s;
+  border-bottom-color: rgba(16, 0, 43, 1);
+  border-top-style: none;
+  border-right-style: none;
+  border-left-color: rgba(8, 124, 153, 0);
+} 
+
+input:focus {
+  outline: 0;
+  border-bottom-color: rgba(16, 0, 43, 1);
+  border-top-style: none;
+  border-right-style: none;
+  border-left-color: rgba(8, 124, 153, 0);
+  transition: 0.2s ease all;
+  background-color: white;
+}
+
+.inputText {
+  font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #10002B;
+    text-align: left;
+}

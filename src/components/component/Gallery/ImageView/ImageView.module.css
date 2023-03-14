@@ -1,0 +1,83 @@
+.forFullScreen {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 13;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 80%;
+  position: relative;
+  width: auto;
+}
+
+.buttons {
+  position: absolute;
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+}
+
+.prevIcon,
+.closeIcon,
+.nextIcon {
+  opacity: 0.8;
+}
+
+.closeIcon {
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  top: 5%;
+  right: 20%;
+}
+
+.closeButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+}
+
+.prevIcon:hover,
+.closeIcon:hover,
+.nextIcon:hover {
+  opacity: 1;
+  scale: 1.1;
+  transition: all ease 0.3s;
+}
+
+.prev {
+  fill: white;
+}
+
+.blur {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.8);
+}/*# sourceMappingURL=ImageView.module.css.map */

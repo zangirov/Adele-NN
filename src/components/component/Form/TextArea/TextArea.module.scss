@@ -1,0 +1,27 @@
+.text_area {
+  resize: none;
+  border-color: rgba(16, 0, 43, 0.5);
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  color: rgb(30, 31, 35);
+  width: 100%;
+  padding: 0.5rem;
+  height: 7rem;
+}
+
+.text_area:hover {
+  scale: 1.01;
+  border-color: rgba(16, 0, 43, 0.7);
+}
+
+.text_area:focus {
+  outline: 0; 
+  border-color: rgba(16, 0, 43, 0.901);
+  transition: 0.2s ease all;
+}
+
+.label {
+  width: 100%;
+}

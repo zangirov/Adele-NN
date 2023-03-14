@@ -1,0 +1,96 @@
+.forFullScreen {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 13;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 80%;
+  position: relative;
+  width: auto;
+}
+
+// .image_container:focus {
+//   cursor: none;
+// }
+
+.buttons {
+  position: absolute;
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+}
+
+.prevIcon,
+.closeIcon,
+.nextIcon {
+  opacity: 0.8
+}
+
+.closeIcon {
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+.closeButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.closeButton p {
+  color: #E0AAFF;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.prevIcon:hover,
+.closeIcon:hover,
+.nextIcon:hover,
+.closeButton p:hover {
+  opacity: 1;
+  scale: 1.2;
+  transition: all ease 0.3s;
+}
+
+
+.blur {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: inline;
+  background-color: rgba(0,0,0, 0.8);
+}

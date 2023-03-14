@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  background-color: #e3e3e3;
+  margin: 1rem auto;
+}
+
+.navigation {
+  width: 1440px;
+  margin: 1rem auto;
+}
+
+.item_navigate {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 300;
+  cursor: pointer;
+  color: #240046;
+}
+
+.item_navigate {
+  display: inline-block;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
+}
+
+.item_navigate::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #5A189A;
+  transition: width 0.3s ease-out;
+}
+
+.item_navigate:hover::before {
+  width: 100%;
+}
+
+.list_item {
+  padding: 0.5rem;
+  transition: 0.1s ease all;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100%;
+}
+
+.menu {
+  width: 100%;
+  margin: auto;
+}/*# sourceMappingURL=Menu.module.css.map */
